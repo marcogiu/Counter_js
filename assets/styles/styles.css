@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fffffe;
+}
+
+#header {
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #5f6c7b;
+}

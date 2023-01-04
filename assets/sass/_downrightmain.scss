@@ -12,11 +12,22 @@
     margin-top: 0.5vw;
   }
 
-    .row2 {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      margin-top: 3.5vw;
-    }
+  .row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 3.5vw;
+  }
+
+  #start,
+  #stop {
+    cursor: pointer;
+    height: 3vw;
+    width: 8vw;
+    font-size: 2vw;
+    background-color: $color1;
+    border: none;
+    border-radius: 7.5%;
+  }
 }
 

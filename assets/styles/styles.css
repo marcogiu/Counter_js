@@ -141,3 +141,13 @@ header .link-img:hover {
   justify-content: space-evenly;
   margin-top: 3.5vw;
 }
+.container2 #start,
+.container2 #stop {
+  cursor: pointer;
+  height: 3vw;
+  width: 8vw;
+  font-size: 2vw;
+  background-color: #e0fbfc;
+  border: none;
+  border-radius: 7.5%;
+}

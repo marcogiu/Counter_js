@@ -1,3 +1,3 @@
 # Counter_js
 
-https://easycounterjs.netlify.app/
+https://easycounterjs.netlify.app/ target:_blank

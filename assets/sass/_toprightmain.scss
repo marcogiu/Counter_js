@@ -1,53 +1,44 @@
-.top-right-main {
-  height: 45vh;
-  .container1 {
-    background-color: #094067;
-    box-shadow: 0px 0px 17px 19px rgba(0, 0, 0, 0.71);
-    border-radius: 10%;
-    height: 35vh;
-    width: 20vw;
-    transform: translate(0, 20%);
-    border: 2px inset $color1;
+.container1 {
+  width: 20vw;
+  height: 15vw;
+  background-color: $color2;
+  border: 3px solid $color4;
+  border-radius: 10%;
+  box-shadow: 0px 0px 17px 19px rgba(0, 0, 0, 0.71);
 
-    #title1 {
-      width: fit-content;
-      font-size: 2vw;
-      margin: auto;
-      margin-top: 3vh;
-    }
+  #title1 {
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 0.5vw;
+  }
 
-    #btnDecrease,
-    #btnIncrease,
-    #reset {
-      height: 8vh;
-      width: 8vh;
-      cursor: pointer;
-      position: relative;
-      top: 5vh;
-      left: 0.7vw;
-      background-color: #3da9fc;
-      font-size: 1.5vw;
-      border: 1px solid $color1;
-      border-radius: 50%;
-      &:hover {
-          background-color: $color1;
-          color: #3da9fc;
-          border: 1px solid #3da9fc;
-        }
-        &:active {
-          color: black;
-          background-color: #fde24f;
-        }
-    }
+  .row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 3.5vw;
+  }
 
-    #reset {
-      top: 6vh;
-      height: 8vh;
-      width: 20vh;
-      border-radius: 10px;
-      margin: 0 0.5vw;
-      font-size: 2vw;
-    }
+  #btnIncrease,
+  #btnDecrease {
+    cursor: pointer;
+    font-size: 2vw;
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+    border: none;
+    background-color: $color1;
+  }
+  #reset {
+    cursor: pointer;
+    height: 3vw;
+    width: 8vw;
+    font-size: 2vw;
+    background-color: $color1;
+    border: none;
+    border-radius: 7.5%;
   }
 }
+
+
 

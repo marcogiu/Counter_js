@@ -3,17 +3,17 @@
   padding: 0;
   box-sizing: border-box;
   font-family: $font1;
-  color: $color1;
+  color: $color4;
 }
 
 body {
   font-size: 10px;
-  background-color: #0f0e17;
+  background-color: $color1;
 }
 
 main {
   height: 90vh;
   width: 100vw;
-  background-color: $color1;
+  
   display: flex;
 }

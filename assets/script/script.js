@@ -7,10 +7,10 @@ function createNode(tag, id, content) {
 }
 
 const startValue = createNode('div', 'startValue', '0'); //create value container
-container0.append(startValue)
+leftMain.append(startValue)
 
 const btnDecrease = createNode('button', 'btnDecrease', '-'); //create - button
-container1.append(btnDecrease)
+row1.append(btnDecrease)
 
 const btnIncrease = createNode('button', 'btnIncrease', '+'); //create + button
 btnDecrease.after(btnIncrease);
@@ -19,7 +19,7 @@ const reset = createNode('button', 'reset', 'reset'); //create reset button
 btnDecrease.after(reset);
 
 const start = createNode('button', 'start', 'start'); //create reset button
-container2.append(start);
+row2.append(start);
 
 const stop = createNode('button', 'stop', 'stop'); //create reset button
 start.after(stop);

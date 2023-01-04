@@ -1,11 +1,11 @@
 .right-main {
   width: 50vw;
-}
-
-.right-main {
+  border-left: 4px solid $color4;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  gap: 3vw;
 }
 
 /*   TOP-RIGHT-MAIN    */

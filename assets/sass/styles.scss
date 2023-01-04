@@ -1,19 +1,30 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+$font1: 'Fredoka One', cursive;
+$color1: #fffffe;
+$color2: #716040;
+$color3: #020826;
+$color4: #f25042;
+$color5: #fffffe;
+$color6: #eaddcf;
+$color7: #2a2a2a;
+$color8: #0d0d0d;
+$color9: #eff0f3;
+$color10: #000000;
 
-body {
-  background-color: #fffffe;
-}
+/*   GENERAL STYLE   */
+@import './generalstyles';
 
-#header {
-  height: 30vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background-color: #5f6c7b;
+/*   HEADER    */
+@import './header.scss';
+
+/*   LEFT-MAIN    */
+@import './leftmain.scss';
+
+/*   RIGHT-MAIN    */
+@import './rightmain.scss';
+
+
+@media screen and (max-width:768px ) {
+  
 }
 
 

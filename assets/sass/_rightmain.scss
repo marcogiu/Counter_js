@@ -1,0 +1,15 @@
+.right-main {
+  width: 50vw;
+}
+
+.right-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*   TOP-RIGHT-MAIN    */
+@import './toprightmain.scss';
+
+/*   DOWN-RIGHT-MAIN    */
+@import './downrightmain.scss';

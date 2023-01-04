@@ -1,0 +1,53 @@
+.top-right-main {
+  height: 45vh;
+  .container1 {
+    background-color: #094067;
+    box-shadow: 0px 0px 17px 19px rgba(0, 0, 0, 0.71);
+    border-radius: 10%;
+    height: 35vh;
+    width: 20vw;
+    transform: translate(0, 20%);
+    border: 2px inset $color1;
+
+    #title1 {
+      width: fit-content;
+      font-size: 2vw;
+      margin: auto;
+      margin-top: 3vh;
+    }
+
+    #btnDecrease,
+    #btnIncrease,
+    #reset {
+      height: 8vh;
+      width: 8vh;
+      cursor: pointer;
+      position: relative;
+      top: 5vh;
+      left: 0.7vw;
+      background-color: #3da9fc;
+      font-size: 1.5vw;
+      border: 1px solid $color1;
+      border-radius: 50%;
+      &:hover {
+          background-color: $color1;
+          color: #3da9fc;
+          border: 1px solid #3da9fc;
+        }
+        &:active {
+          color: black;
+          background-color: #fde24f;
+        }
+    }
+
+    #reset {
+      top: 6vh;
+      height: 8vh;
+      width: 20vh;
+      border-radius: 10px;
+      margin: 0 0.5vw;
+      font-size: 2vw;
+    }
+  }
+}
+

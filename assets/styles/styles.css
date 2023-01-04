@@ -1,17 +1,199 @@
+/*   GENERAL STYLE   */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Fredoka One", cursive;
+  color: #fffffe;
 }
 
 body {
-  background-color: #fffffe;
+  font-size: 10px;
+  background-color: #0f0e17;
 }
 
-#header {
-  height: 30vh;
+main {
+  height: 90vh;
+  width: 100vw;
+  background-color: #fffffe;
+  display: flex;
+}
+
+/*   HEADER    */
+header {
+  width: 100vw;
+  height: 10vh;
+  background-color: #00214d;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #5f6c7b;
+  align-items: center;
+}
+header p {
+  margin-left: 2vw;
+  font-size: 2.5vw;
+}
+header ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 1vw;
+  margin-right: 2vw;
+  padding: 1vh 1vw;
+  background-color: #fffffe;
+  border-radius: 10px;
+}
+header .link-img {
+  width: 2vw;
+}
+
+/*   LEFT-MAIN    */
+.left-main {
+  width: 50vw;
+}
+
+.container0 {
+  background-color: #fde24f;
+  box-shadow: 0px 0px 17px 19px rgba(0, 0, 0, 0.71);
+  border-radius: 10%;
+  height: 60vh;
+  width: 25vw;
+  transform: translate(50%, 20%);
+  border: 4px double #fffffe;
+}
+.container0 #startValue {
+  font-size: 15em;
+  position: relative;
+  top: 17.5vh;
+  text-align: center;
+  color: #0f0e17;
+}
+
+@media screen and (max-width: 768px) {
+  .container0 {
+    height: 40vh;
+    width: 25vw;
+    transform: translate(50%, 50%);
+  }
+  .container0 #startValue {
+    font-size: 10em;
+    top: 10vh;
+  }
+}
+/*   RIGHT-MAIN    */
+.right-main {
+  width: 50vw;
+}
+
+.right-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*   TOP-RIGHT-MAIN    */
+.top-right-main {
+  height: 45vh;
+}
+.top-right-main .container1 {
+  background-color: #094067;
+  box-shadow: 0px 0px 17px 19px rgba(0, 0, 0, 0.71);
+  border-radius: 10%;
+  height: 35vh;
+  width: 20vw;
+  transform: translate(0, 20%);
+  border: 2px inset #fffffe;
+}
+.top-right-main .container1 #title1 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 2vw;
+  margin: auto;
+  margin-top: 3vh;
+}
+.top-right-main .container1 #btnDecrease,
+.top-right-main .container1 #btnIncrease,
+.top-right-main .container1 #reset {
+  height: 8vh;
+  width: 8vh;
+  cursor: pointer;
+  position: relative;
+  top: 5vh;
+  left: 0.7vw;
+  background-color: #3da9fc;
+  font-size: 1.5vw;
+  border: 1px solid #fffffe;
+  border-radius: 50%;
+}
+.top-right-main .container1 #btnDecrease:hover,
+.top-right-main .container1 #btnIncrease:hover,
+.top-right-main .container1 #reset:hover {
+  background-color: #fffffe;
+  color: #3da9fc;
+  border: 1px solid #3da9fc;
+}
+.top-right-main .container1 #btnDecrease:active,
+.top-right-main .container1 #btnIncrease:active,
+.top-right-main .container1 #reset:active {
+  color: black;
+  background-color: #fde24f;
+}
+.top-right-main .container1 #reset {
+  top: 6vh;
+  height: 8vh;
+  width: 20vh;
+  border-radius: 10px;
+  margin: 0 0.5vw;
+  font-size: 2vw;
+}
+
+/*   DOWN-RIGHT-MAIN    */
+.down-right-main {
+  height: 45vh;
+}
+.down-right-main .container2 {
+  margin-top: -3vh;
+  background-color: #094067;
+  box-shadow: 0px 0px 17px 19px rgba(0, 0, 0, 0.71);
+  border-radius: 10%;
+  height: 35vh;
+  width: 20vw;
+  transform: translate(0, 20%);
+  border: 2px outset #fffffe;
+}
+.down-right-main .container2 #title2 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 2vw;
+  margin: auto;
+  margin-top: 3vh;
+}
+.down-right-main .container2 #start,
+.down-right-main .container2 #stop {
+  height: 10vh;
+  width: 15vh;
+  border: 1px solid #fffffe;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: auto;
+  background-color: #3da9fc;
+  font-size: 4em;
+  padding: 2vh 0.5vw;
+  position: relative;
+  top: 5vh;
+  left: 1.5vw;
+  margin: 0 0.5vw;
+}
+.down-right-main .container2 #start:hover,
+.down-right-main .container2 #stop:hover {
+  background-color: #fffffe;
+  color: #3da9fc;
+  border: 1px solid #3da9fc;
+}
+.down-right-main .container2 #start:active,
+.down-right-main .container2 #stop:active {
+  color: black;
+  background-color: #fde24f;
 }

@@ -13,3 +13,13 @@
 
 /*   DOWN-RIGHT-MAIN    */
 @import './downrightmain.scss';
+
+/*  MOBILE   */
+@media screen and (min-width:320px) and (max-width:480px) {
+  .right-main {
+    border-left: none;
+    flex-direction: row;
+    gap: 15vw;
+    margin-top: 5vw;
+  }
+}

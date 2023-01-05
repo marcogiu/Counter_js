@@ -31,3 +31,27 @@
   }
 }
 
+/*  MOBILE   */
+@media screen and (min-width:320px) and (max-width:480px) {
+  .container2 {
+      width: 35vw;
+      height: 30vw;
+  
+      #title2 {
+        font-size: 5vw;
+        margin-top: 1.5vw;
+      }
+  
+      .row2 {
+        margin-top: 5vw;
+      }
+  
+      #start,
+      #stop {
+        height: 8vw;
+        width: 13vw;
+        font-size: 5vw;
+      }
+    }
+}
+

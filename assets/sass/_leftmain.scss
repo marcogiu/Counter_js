@@ -19,5 +19,24 @@
   }
 }
 
+/*  MOBILE   */
+@media screen and
+(min-width:320px) and (max-width:480px) {
+  .left-main {
+    width: 100vw;
+    border-right: none;
+    border-bottom: 4px solid $color4;
+
+    #startValue {
+      margin-bottom: 15vw;
+      width: 30vw;
+      font-size: 10vw;
+      text-align: center;
+      color: #0f0e17;
+      padding: 10vw;
+    }
+  }
+}
+
 
 

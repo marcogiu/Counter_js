@@ -32,7 +32,7 @@ header {
 }
 
 /*  MOBILE   */
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width:320px) and (max-width:551px) {
   header {
   
       p {
@@ -42,13 +42,30 @@ header {
       ul {
         gap: 2.5vw;
         margin-right: 2vw;
-        padding: 2vw 2vw;
-        background-color: $color4;
-        border-radius: 10px;
+        padding: 1.5vw 2vw;
       }
   
       .link-img {
-        width: 5vw;
+        width: 4.5vw;
+      }
+    }
+}
+
+/*  TABLET   */
+@media screen and (min-width:551px) and (max-width:768px) {
+    header {
+      p {
+        font-size: 5vw;
+      }
+  
+      ul {
+        gap: 2.5vw;
+        margin-right: 2vw;
+        padding: 1vw 2vw;
+      }
+  
+      .link-img {
+        width: 3.5vw;
       }
     }
 }

@@ -21,11 +21,11 @@
 
 /*  MOBILE   */
 @media screen and
-(min-width:320px) and (max-width:480px) {
+(min-width:320px) and (max-width:551px) {
   .left-main {
     width: 100vw;
     border-right: none;
-    border-bottom: 4px solid $color4;
+    border-bottom: 5px solid $color4;
 
     #startValue {
       margin-bottom: 15vw;
@@ -37,6 +37,26 @@
     }
   }
 }
+
+/*  TABLET   */
+@media screen and (min-width:551px) and (max-width:768px) {
+  .left-main {
+      width: 100vw;
+      height: 45vw;
+      border-right: none;
+      border-bottom: 5px solid $color4;
+      align-items: center;
+  
+      #startValue {
+        width: 25vw;
+        font-size: 10vw;
+        text-align: center;
+        color: #0f0e17;
+        padding: 5vw;
+      }
+    }
+}
+
 
 
 

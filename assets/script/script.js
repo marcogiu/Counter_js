@@ -36,6 +36,7 @@ start.after(stop);
 
 stop.setAttribute('translate', 'no')
 
+
 let count = startValue.innerHTML
 
 //increase or decrease by 1 the value of the valueContainer

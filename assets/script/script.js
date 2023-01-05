@@ -9,6 +9,8 @@ function createNode(tag, id, content) {
 const startValue = createNode('div', 'startValue', '0'); //create value container
 leftMain.append(startValue)
 
+startValue.setAttribute('translate', 'no')
+
 const btnDecrease = createNode('button', 'btnDecrease', '-'); //create - button
 row1.append(btnDecrease)
 
@@ -18,11 +20,17 @@ btnDecrease.after(btnIncrease);
 const reset = createNode('button', 'reset', 'reset'); //create reset button
 btnDecrease.after(reset);
 
+reset.setAttribute('translate', 'no')
+
 const start = createNode('button', 'start', 'start'); //create reset button
 row2.append(start);
 
+start.setAttribute('translate', 'no')
+
 const stop = createNode('button', 'stop', 'stop'); //create reset button
 start.after(stop);
+
+stop.setAttribute('translate', 'no')
 
 let count = startValue.innerHTML
 

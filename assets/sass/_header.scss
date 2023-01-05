@@ -30,3 +30,29 @@ header {
       }
   }
 }
+
+/*  MOBILE   */
+@media screen and (min-width:320px) and (max-width:480px) {
+  header {
+  
+      p {
+        font-size: 5vw;
+      }
+  
+      ul {
+        gap: 1vw;
+        margin-right: 2vw;
+        padding: 3vw 3vw;
+        background-color: $color4;
+        border-radius: 10px;
+      }
+  
+      .link-img {
+        width: 4vw;
+  
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+    }
+}

@@ -14,8 +14,12 @@ startValue.setAttribute('translate', 'no')
 const btnDecrease = createNode('button', 'btnDecrease', '-'); //create - button
 row1.append(btnDecrease)
 
+btnDecrease.setAttribute('translate', 'no')
+
 const btnIncrease = createNode('button', 'btnIncrease', '+'); //create + button
 btnDecrease.after(btnIncrease);
+
+btnIncrease.setAttribute('translate', 'no')
 
 const reset = createNode('button', 'reset', 'reset'); //create reset button
 btnDecrease.after(reset);

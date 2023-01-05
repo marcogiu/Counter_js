@@ -21,6 +21,7 @@ main {
 /*  MOBILE   */
 @media screen and (min-width:320px) and (max-width:551px) {
   main {
+      height: 80vh;
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
@@ -31,6 +32,7 @@ main {
 /*  TABLET   */
 @media screen and (min-width:551px) and (max-width:768px) {
   main {
+      height: 80vh;
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;

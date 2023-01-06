@@ -193,6 +193,15 @@ header .link-img:hover {
   border: none;
   background-color: #e0fbfc;
 }
+.container1 #btnIncrease:hover,
+.container1 #btnDecrease:hover {
+  background-color: #ee6c4d;
+  color: #e0fbfc;
+}
+.container1 #btnIncrease:active,
+.container1 #btnDecrease:active {
+  background-color: rgba(238, 108, 77, 0.8);
+}
 .container1 #reset {
   cursor: pointer;
   height: 3vw;
@@ -201,6 +210,13 @@ header .link-img:hover {
   background-color: #e0fbfc;
   border: none;
   border-radius: 7.5%;
+}
+.container1 #reset:hover {
+  background-color: #ee6c4d;
+  color: #e0fbfc;
+}
+.container1 #reset:active {
+  background-color: rgba(238, 108, 77, 0.8);
 }
 
 /*  MOBILE   */
@@ -282,6 +298,15 @@ header .link-img:hover {
   background-color: #e0fbfc;
   border: none;
   border-radius: 7.5%;
+}
+.container2 #start:hover,
+.container2 #stop:hover {
+  background-color: #ee6c4d;
+  color: #e0fbfc;
+}
+.container2 #start:active,
+.container2 #stop:active {
+  background-color: rgba(238, 108, 77, 0.8);
 }
 
 /*  MOBILE   */

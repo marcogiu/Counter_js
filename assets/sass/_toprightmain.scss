@@ -28,6 +28,13 @@
     border-radius: 50%;
     border: none;
     background-color: $color1;
+    &:hover {
+      background-color: $color4;
+      color: $color1;
+    }
+    &:active {
+      background-color: rgba($color: $color4, $alpha: 0.8);
+    }
   }
   #reset {
     cursor: pointer;
@@ -37,6 +44,13 @@
     background-color: $color1;
     border: none;
     border-radius: 7.5%;
+    &:hover {
+      background-color: $color4;
+      color: $color1;
+    }
+    &:active {
+      background-color: rgba($color: $color4, $alpha: 0.8);
+    }
   }
 }
 

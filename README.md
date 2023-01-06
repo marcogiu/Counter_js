@@ -13,7 +13,6 @@ Live demo: (https://easycounterjs.netlify.app/).
 - [Usage](#usage)
 - [Project Status](#project-status)
 - [Room for Improvement](#room-for-improvement)
-- [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
 ## General Information
@@ -26,9 +25,10 @@ Live demo: (https://easycounterjs.netlify.app/).
 
 ## Technologies Used
 
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+- HTML 5 ![HTML5](assets/img/html-icon.png)
+- CSS
+- SASS
+- Javascript
 
 ## Features
 
@@ -75,20 +75,10 @@ To do:
 - Feature to be added 1
 - Feature to be added 2
 
-## Acknowledgements
 
-Give credit here.
-
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
 
 ## Contact
 
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by [@marcogiu](https://marcogiu.github.io/myWebsite/) 
 
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
 
-<!-- You don't have to include all sections - just the one's relevant to your project -->

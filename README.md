@@ -1,7 +1,7 @@
 # COUNTER
 
 > Simple counter app created with Javascrpit.
-> Live demo [_here_](https://easycounterjs.netlify.app/).
+> Live demo: (https://easycounterjs.netlify.app/).
 
 ## Table of Contents
 
@@ -15,7 +15,6 @@
 - [Room for Improvement](#room-for-improvement)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
-<!-- * [License](#license) -->
 
 ## General Information
 

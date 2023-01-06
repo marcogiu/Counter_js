@@ -1,7 +1,7 @@
 # COUNTER
 
-> Simple counter app created with Javascrpit.
-> Live demo: (https://easycounterjs.netlify.app/).
+Simple counter app created with Javascript.
+Live demo: (https://easycounterjs.netlify.app/).
 
 ## Table of Contents
 

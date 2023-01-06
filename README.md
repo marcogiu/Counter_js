@@ -1,7 +1,7 @@
 # COUNTER
 
-Simple counter app created with Javascript.
-Live demo: (https://easycounterjs.netlify.app/).
+Simple counter app created with Javascript. <br>
+Live demo: https://easycounterjs.netlify.app/
 
 ## Table of Contents
 
@@ -9,10 +9,6 @@ Live demo: (https://easycounterjs.netlify.app/).
 - [Technologies Used](#technologies-used)
 - [Features](#features)
 - [Screenshots](#screenshots)
-- [Setup](#setup)
-- [Usage](#usage)
-- [Project Status](#project-status)
-- [Room for Improvement](#room-for-improvement)
 - [Contact](#contact)
 
 ## General Information
@@ -25,57 +21,23 @@ Live demo: (https://easycounterjs.netlify.app/).
 
 ## Technologies Used
 
-- HTML 5 <img src="assets/img/html-icon.png" width=20px height=20px>
-- CSS  <img src="assets/img/css-icon.png" width=20px height=20px>
-- SASS  <img src="assets/img/sass-icon.png" width=20px height=20px>
-- Javascript  <img src="assets/img/html-icon.png" width=20px height=20px>
+- HTML 5 &nbsp; <img src="assets/img/html-icon.png" width=20px height=20px>
+- CSS  &nbsp; <img src="assets/img/css-icon.png" width=20px height=20px>
+- SASS  &nbsp; <img src="assets/img/sass-icon.png" width=20px height=20px>
+- Javascript  &nbsp; <img src="assets/img/javascript-icon.png" width=20px height=20px>
 
 ## Features
 
-List the ready features here:
-
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
+- click on the buttons -,+, reset: to increase, decrease and reset the value
+- click on the start button to automatically increase the number by 1 every second
+- click on the stop button to stop the automatic counter
+- if value > 0 the color is green; if value < 0 the color is red; if value = 0 the color is black
 
 ## Screenshots
+<img src="assets/img/meta-img.png" width=20px height=20px> &nbsp; <img src="assets/img/javascript-icon.png" width=20px height=20px> &nbsp; <img src="assets/img/javascript-icon.png" width=20px height=20px>
 
-![Example screenshot](./img/screenshot.png)
 
 <!-- If you have screenshots you'd like to share, include them here. -->
-
-## Setup
-
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
-
-Proceed to describe how to install / setup one's local environment / get started with the project.
-
-## Usage
-
-How does one go about using it?
-Provide various use cases and code examples here.
-
-`write-your-code-here`
-
-## Project Status
-
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
-
-## Room for Improvement
-
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
-
-Room for improvement:
-
-- Improvement to be done 1
-- Improvement to be done 2
-
-To do:
-
-- Feature to be added 1
-- Feature to be added 2
-
-
 
 ## Contact
 

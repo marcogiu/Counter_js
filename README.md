@@ -25,10 +25,10 @@ Live demo: (https://easycounterjs.netlify.app/).
 
 ## Technologies Used
 
-- HTML 5 ![HTML5](assets/img/html-icon.png)
-- CSS
-- SASS
-- Javascript
+- HTML 5 <img src="assets/img/html-icon.png" width=20px height=20px>
+- CSS  <img src="assets/img/css-icon.png" width=20px height=20px>
+- SASS  <img src="assets/img/sass-icon.png" width=20px height=20px>
+- Javascript  <img src="assets/img/html-icon.png" width=20px height=20px>
 
 ## Features
 

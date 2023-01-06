@@ -5,19 +5,10 @@ Live demo: https://easycounterjs.netlify.app/
 
 ## Table of Contents
 
-- [General Info](#general-information)
 - [Technologies Used](#technologies-used)
 - [Features](#features)
 - [Screenshots](#screenshots)
 - [Contact](#contact)
-
-## General Information
-
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Technologies Used
 
@@ -34,13 +25,16 @@ Live demo: https://easycounterjs.netlify.app/
 - if value > 0 the color is green; if value < 0 the color is red; if value = 0 the color is black
 
 ## Screenshots
-<img src="assets/img/meta-img.png" width=20px height=20px> &nbsp; <img src="assets/img/javascript-icon.png" width=20px height=20px> &nbsp; <img src="assets/img/javascript-icon.png" width=20px height=20px>
+<img src="assets/img/metaimg.png" width=500px> &nbsp; <img src="assets/img/screenshot2.png" width=500px> &nbsp; <img src="assets/img/screenshot1.png" width=500px>
 
 
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 ## Contact
 
-Created by [@marcogiu](https://marcogiu.github.io/myWebsite/) 
+Created by Marco Giuliani: 
+- [Website](https://marcogiu.github.io/myWebsite/) 
+- [Linkedin](https://www.linkedin.com/in/marco-giuliani-2a20b4179/)
+- [Twitter](https://twitter.com/Marco02351182)
 
 

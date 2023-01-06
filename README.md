@@ -32,9 +32,9 @@ Live demo: https://easycounterjs.netlify.app/
 
 ## Contact
 
-Created by Marco Giuliani: 
-- [Website](https://marcogiu.github.io/myWebsite/) 
-- [Linkedin](https://www.linkedin.com/in/marco-giuliani-2a20b4179/)
-- [Twitter](https://twitter.com/Marco02351182)
+Created by Marco Giuliani: &nbsp; <img src="assets/img/freelancer-freelance-icon.png" width=25px>
+- [Website](https://marcogiu.github.io/myWebsite/) &nbsp; <img src="assets/img/logo_black.png" width=25px>
+- [Linkedin](https://www.linkedin.com/in/marco-giuliani-2a20b4179/) &nbsp; <img src="assets/img/linkedin-round-icon (1).svg" width=25px>
+- [Twitter](https://twitter.com/Marco02351182) &nbsp; <img src="assets/img/twitter-round-icon.svg" width=25px>
 
 

@@ -25,7 +25,7 @@ Live demo: (https://easycounterjs.netlify.app/).
 
 ## Technologies Used
 
-- HTML 5
+- HTML 5 ![HTML5](assets/img/html-icon.png)
 - CSS
 - SASS
 - Javascript

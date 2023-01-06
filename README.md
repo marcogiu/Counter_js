@@ -32,6 +32,9 @@ Live demo: https://easycounterjs.netlify.app/
 
 ## Contact
 
-Created by [@marcogiu](https://marcogiu.github.io/myWebsite/) 
+Created by Marco Giuliani: 
+- [Website](https://marcogiu.github.io/myWebsite/) 
+- [Linkedin](https://www.linkedin.com/in/marco-giuliani-2a20b4179/)
+- [Twitter](https://twitter.com/Marco02351182)
 
 

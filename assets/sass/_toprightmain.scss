@@ -2,7 +2,7 @@
   width: 20vw;
   height: 15vw;
   background-color: $color2;
-  border: 3px solid $color4;
+  border: 3px solid $color3;
   border-radius: 10%;
   box-shadow: 0px 0px 17px 19px rgba(0, 0, 0, 0.71);
 
@@ -29,11 +29,11 @@
     border: none;
     background-color: $color1;
     &:hover {
-      background-color: $color4;
+      background-color: $color3;
       color: $color1;
     }
     &:active {
-      background-color: rgba($color: $color4, $alpha: 0.8);
+      background-color: rgba($color: $color3, $alpha: 0.8);
     }
   }
   #reset {
@@ -45,11 +45,11 @@
     border: none;
     border-radius: 7.5%;
     &:hover {
-      background-color: $color4;
+      background-color: $color3;
       color: $color1;
     }
     &:active {
-      background-color: rgba($color: $color4, $alpha: 0.8);
+      background-color: rgba($color: $color3, $alpha: 0.8);
     }
   }
 }

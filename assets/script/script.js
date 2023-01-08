@@ -6,40 +6,34 @@ function createNode(tag, id, content) {
   return element
 }
 
+//create HTML element
 const startValue = createNode('div', 'startValue', '0'); //create value container
 leftMain.append(startValue)
-
-startValue.setAttribute('translate', 'no')
 
 const btnDecrease = createNode('button', 'btnDecrease', '-'); //create - button
 row1.append(btnDecrease)
 
-btnDecrease.setAttribute('translate', 'no')
-
 const btnIncrease = createNode('button', 'btnIncrease', '+'); //create + button
 btnDecrease.after(btnIncrease);
-
-btnIncrease.setAttribute('translate', 'no')
 
 const reset = createNode('button', 'reset', 'reset'); //create reset button
 btnDecrease.after(reset);
 
-reset.setAttribute('translate', 'no')
-
-const start = createNode('button', 'start', 'start'); //create reset button
+const start = createNode('button', 'start', 'start'); //create start button
 row2.append(start);
 
-start.setAttribute('translate', 'no')
-
-const stop = createNode('button', 'stop', 'stop'); //create reset button
+const stop = createNode('button', 'stop', 'stop'); //create stop button
 start.after(stop);
 
+// block translate 
+startValue.setAttribute('translate', 'no')
+reset.setAttribute('translate', 'no')
+start.setAttribute('translate', 'no')
 stop.setAttribute('translate', 'no')
-
 
 let count = startValue.innerHTML
 
-//increase or decrease by 1 the value of the valueContainer
+//increase or decrease by 1 the value of the valueContainer and increase or decrease by 1 the variable count
 function counter(e) {
   switch (e.target.id) {
     case 'btnIncrease':
@@ -57,7 +51,7 @@ function counter(e) {
   }
 }
 
-
+//function for the auto and stop button
 let myInterval
 
 function startCounter() {
@@ -75,22 +69,6 @@ function stopCounter() {
   myInterval = null
 }
 
-
-start.addEventListener("click", startCounter)
-stop.addEventListener("click", stopCounter)
-reset.addEventListener("click", stopCounter)
-
-//Increase, decrease or reset the counter
-container1.addEventListener('click', (e) => {
-  counter(e);
-});
-
-
-container1.addEventListener('click', (e) => {
-  color(count);
-});
-
-
 // change color of startValue
 function color(e) {
   if (count < 0) {
@@ -103,6 +81,24 @@ function color(e) {
 
     }
 }
+
+//link action to button
+start.addEventListener("click", startCounter)
+stop.addEventListener("click", stopCounter)
+reset.addEventListener("click", stopCounter)
+
+//Increase, decrease or reset the counter
+container1.addEventListener('click', (e) => {
+  counter(e);
+});
+
+//change color of startValue
+container1.addEventListener('click', (e) => {
+  color(count);
+});
+
+
+
 
 
 

@@ -59,7 +59,7 @@ function startCounter() {
     myInterval = setInterval(() => {
       startValue.innerHTML++
       count++
-      changeColor(color)
+      changeColor()
     }, 1000);
   }
 }
@@ -73,7 +73,7 @@ function stopCounter() {
 let color = null
 
 function changeColor(e) {
-  e = document.getElementById('startValue')
+  e = startValue
   if (count > 0) {
     e.style.color = 'green'
   } else
@@ -85,7 +85,7 @@ function changeColor(e) {
     }
 }
 
-document.getElementById("rightMain").addEventListener("click", function (e) {
+rightMain.addEventListener("click", function (e) {
   if (e.target.id == "start") {
     startCounter()
   } else
@@ -99,7 +99,7 @@ document.getElementById("rightMain").addEventListener("click", function (e) {
 //Increase, decrease or reset the counter and change the color
 container1.addEventListener('click', (e) => {
   counter(e);
-  changeColor(color);
+  changeColor();
 });
 
 

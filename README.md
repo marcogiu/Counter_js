@@ -13,9 +13,9 @@ Live demo: https://easycounterjs.netlify.app/
 ## Technologies Used
 
 - HTML 5 &nbsp; <img src="assets/img/html-icon.png" width=20px height=20px>
-- CSS  &nbsp; <img src="assets/img/css-icon.png" width=20px height=20px>
-- SASS  &nbsp; <img src="assets/img/sass-icon.png" width=20px height=20px>
-- Javascript  &nbsp; <img src="assets/img/javascript-icon.png" width=20px height=20px>
+- CSS &nbsp; <img src="assets/img/css-icon.png" width=20px height=20px>
+- SASS &nbsp; <img src="assets/img/sass-icon.png" width=20px height=20px>
+- Javascript &nbsp; <img src="assets/img/javascript-icon.png" width=20px height=20px>
 
 ## Features
 
@@ -25,16 +25,15 @@ Live demo: https://easycounterjs.netlify.app/
 - if value > 0 the color is green; if value < 0 the color is red; if value = 0 the color is black
 
 ## Screenshots
-<img src="assets/img/metaimg.png" width=500px> &nbsp; <img src="assets/img/screenshot2.png" width=500px> &nbsp; <img src="assets/img/screenshot1.png" width=500px>
 
+<img src="assets/img/metaimg.png" width=500px> &nbsp; <img src="assets/img/screenshot2.png" width=500px> &nbsp; <img src="assets/img/screenshot1.png" width=500px>
 
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 ## Contact
 
 Created by Marco Giuliani: &nbsp; <img src="assets/img/freelancer-freelance-icon.png" width=25px>
-- [Website](https://marcogiu.github.io/myWebsite/) &nbsp; <img src="assets/img/logo_black.png" width=25px>
+
+- [Website](https://marcogiu.github.io/myWebsite/) &nbsp; <img src="assets/img/logo_white.png" width=25px>
 - [Linkedin](https://www.linkedin.com/in/marco-giuliani-2a20b4179/) &nbsp; <img src="assets/img/linkedin-round-icon (1).svg" width=25px>
 - [Twitter](https://twitter.com/Marco02351182) &nbsp; <img src="assets/img/twitter-round-icon.svg" width=25px>
-
-

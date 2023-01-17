@@ -32,6 +32,21 @@ start.setAttribute('translate', 'no')
 stop.setAttribute('translate', 'no')
 
 let count = startValue.innerHTML
+let colorValue = null
+
+// change color of startValue
+function changeColor() {
+  colorValue = startValue.style
+  if (count > 0) {
+    colorValue.color = 'green'
+  } else
+    if (count < 0) {
+      colorValue.color = 'red'
+    }
+    else {
+      colorValue.color = 'black'
+    }
+}
 
 //increase or decrease by 1 the value of the valueContainer and increase or decrease by 1 the variable count
 function counter(e) {
@@ -49,6 +64,7 @@ function counter(e) {
       count = 0
       break;
   }
+  changeColor()
 }
 
 //function for the auto and stop button
@@ -69,23 +85,9 @@ function stopCounter() {
   myInterval = null
 }
 
-// change color of startValue
-let color = null
-
-function changeColor(e) {
-  e = startValue
-  if (count > 0) {
-    e.style.color = 'green'
-  } else
-    if (count < 0) {
-      e.style.color = 'red'
-    }
-    else {
-      e.style.color = 'black'
-    }
-}
-
-rightMain.addEventListener("click", function (e) {
+//Increase, decrease, reset, start and stop the counter and change the color
+addEventListener("click", function (e) {
+  counter(e)
   if (e.target.id == "start") {
     startCounter()
   } else
@@ -96,11 +98,8 @@ rightMain.addEventListener("click", function (e) {
 })
 
 
-//Increase, decrease or reset the counter and change the color
-container1.addEventListener('click', (e) => {
-  counter(e);
-  changeColor();
-});
+
+
 
 
 

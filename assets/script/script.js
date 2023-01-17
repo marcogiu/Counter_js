@@ -86,7 +86,7 @@ function stopCounter() {
 }
 
 //Increase, decrease, reset, start and stop the counter and change the color
-addEventListener("click", function (e) {
+document.addEventListener("click", function (e) {
   counter(e)
   if (e.target.id == "start") {
     startCounter()
